@@ -6,12 +6,10 @@
     box-sizing: border-box;
     scroll-behavior: smooth;
 	background-color:  #FCDA69;
-
 }
 
 
 header {
-
    background-color:  #FCDA69;
     height:100px;
     width: 100%;
@@ -21,7 +19,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 60px ;
+}
 
+.logo {
+    cursor: pointer;
+    height: 100%;
 }
 
  ul {
@@ -41,6 +43,7 @@ a:hover {
     color: red;
     border-bottom:1px solid red;
     border-bottom: red;
+    transition: 1s;
 }
 
 a {
@@ -57,7 +60,6 @@ section {
 
 .HOME-section {
     color: #2D4149;
-  
     width: 100%  ;
     min-height: 100vh ;
     display: flex;
@@ -88,10 +90,12 @@ h1 {
     background-color  :red; 
     color: white;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 .bnt-HEAD:hover {
-    transform: 0.2s; color: #f7f7f7;
+    transform: 0.2s; 
+    background-color: rgb(194, 28, 28);
 }
 .social-icons
 {
@@ -103,7 +107,12 @@ padding-left: 30px;
     background-color:  #FCDA69;;
     padding: 10px;
     color: #2D4149;
+    font-size: 30px;
 } 
+
+.social-icons a:hover {
+    color: red;
+}
 
 
 
