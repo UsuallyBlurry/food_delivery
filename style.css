@@ -199,6 +199,18 @@ padding-left: 30px;
     
 }
 
+.delivery-option {
+    width: 30%;
+    padding: 10px;
+    font-weight: bolder;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    outline: none;
+    margin-top: 4px;
+    border-radius: 5px;
+}
+
 @media (max-width: 1000px) {
     .delivery-search {
         display: grid;
@@ -238,14 +250,19 @@ padding-left: 30px;
 }
  
 
-.portfolio {
-    width: 50%;
+.flavor {
+    width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
+    color: orangered;
+  }
+
+  .flavor p {
+    color: red;
   }
   
-  .portfolio-column {
+  .flavor-column {
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -253,7 +270,7 @@ padding-left: 30px;
     overflow: hidden;
   }
   
-  .portfolio-column img {
+  .flavor-column img {
     width: 100%;
     height: 100%;
     display: block;
@@ -388,4 +405,91 @@ padding-left: 30px;
   form button:hover {
     border: none;
     background-color: red;
+  }
+
+  @media (max-width: 628px) {
+    .contact-row{
+      flex-direction: column;
+    }
+  
+    .contact-left {
+      width: 100%;
+      text-align: center;
+    }
+  }
+
+  .guide {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 70px;
+    
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: 600;
+  }
+  
+  p {
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 10px;
+  }
+  
+  .row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .column {
+    flex-basis: 31%;
+    /* background:#f9f7ff; */
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+  }
+  
+  h3 {
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .column:hover {
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+  
+  }
+  @media(max-width: 628px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  .fixed-btn {
+    position: fixed;
+    bottom: 60px;
+    right: 40px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    background-color: orangered;
+    border: none;
+    outline: none;
+    color: #FCDA69;
+    font-size: large;
+  }
+
+  .fixed-btn:hover {
+    background-color: rgba(255, 68, 0, 0.623);
+  }
+
+  footer {
+    text-align: center;
   }
