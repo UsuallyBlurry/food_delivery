@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-	background-color:  #FCDA69;
+	  background-color:  #FCDA69;
 }
 
 
@@ -69,6 +69,11 @@ section {
 
 .titltehome {
     position: relative;
+}
+
+.titltehome p {
+  color:#2D4149;
+  font-weight: bold;
 }
 
 h1 {
@@ -237,6 +242,7 @@ padding-left: 30px;
 
 .menu-section p {
     margin-bottom: 10px;
+    color:#2D4149;
 }
 
 .menu-btn {
@@ -259,7 +265,7 @@ padding-left: 30px;
   }
 
   .flavor p {
-    color: red;
+    color:#2D4149;
   }
   
   .flavor-column {
@@ -425,6 +431,15 @@ padding-left: 30px;
     padding-top: 70px;
     
   }
+
+  .guide h1 {
+    color: orangered;
+  }
+
+  .guide p {
+    color: #2D4149;
+    font-weight: bolder;
+  }
   
   h1 {
     font-size: 36px;
@@ -454,6 +469,15 @@ padding-left: 30px;
     padding: 20px 12px;
     box-sizing: border-box;
     transition: 0.5s;
+  }
+
+  .column p {
+    color:#2D4149;
+    font-weight: bold;
+  }
+
+  .column h3 {
+    color: orangered;
   }
   
   h3 {
