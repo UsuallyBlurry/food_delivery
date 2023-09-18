@@ -5,12 +5,13 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-	  background-color:  #FCDA69;
+	  /* background-color:  #FCDA69; */
+}
+body {
+  background-color: #FFD342;
 }
 
-
 header {
-   background-color:  #FCDA69;
     height:100px;
     width: 100%;
     position: fixed;
@@ -19,7 +20,11 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 10px 60px ;
-    
+    background-color: #FFD342;
+}
+
+.nav-menu {
+  /* background-color: #ffc917d0; */
 }
 
 .logo {
@@ -31,13 +36,13 @@ header {
     display: flex;
     list-style-type: none;
     padding: 10px 100px ;
-    background-color: #FCDA69;
+    /* background-color:  #FFC917; */
 } 
 
 
 ul li {
     padding: 10px 30px ;
-    background-color:  #FCDA69;
+    /* background-color:  #FCDA69; */
 }
 
 a:hover {
@@ -47,14 +52,14 @@ a:hover {
 }
 
 a {
-    background-color: #FCDA69;
+    /* background-color: #FCDA69; */
     text-decoration: none;
     color:#2D4149;
     font-weight: bold;
 }
 
 section {
-    padding: 0px 50px ;
+    
  }
 
 
@@ -65,6 +70,8 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #FFD342;
+    padding: 0 50px;
 }
 
 .titltehome {
@@ -161,6 +168,13 @@ padding-left: 30px;
 .delivery-search {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background-color: #fff;
+    padding: 0 50px;
+    
+}
+
+.search-info {
+  margin: 20px 0;
 }
 
 .search-info h1 {
@@ -174,11 +188,11 @@ padding-left: 30px;
 }
 
 .search-bar h2 {
-    margin-bottom: 10px;
+    margin: 20px 0;
 }
 
 .search-bar input {
-    width: 60%;
+    width: 80%;
     padding: 7px 10px;
     border-radius: 22px 0px 0px 22px;
     border: 3px solid red;
@@ -193,27 +207,27 @@ padding-left: 30px;
     width: 15%;
     padding: 7px 10px;
     position: absolute;
-    right: 34px;
+    right: 44px;
     border: 3px solid red;
     border-radius: 0px 22px 22px 0px;
     cursor: pointer;
 }
 
 .search-bar button:hover {
-    background-color: #d6b33d59;
+    background-color: red;
     
 }
 
 .delivery-option {
-    width: 30%;
+    width: 55%;
     padding: 10px;
     font-weight: bolder;
     text-align: center;
     color: red;
     border: 2px solid red;
     outline: none;
-    margin-top: 4px;
-    border-radius: 5px;
+    margin-top: 15px;
+    border-radius: 10px;
 }
 
 @media (max-width: 1000px) {
@@ -255,14 +269,21 @@ padding-left: 30px;
     margin-bottom: 70px;
 }
  
+.flavor-div {
+  background-color: #FFD342;
+}
 
 .flavor {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+  width: 80%;
+  margin: auto;
+  text-align: center;
     padding-top: 50px;
     color: orangered;
+    padding: 0px 50px ;
+    background-color: #FFD342;
   }
+
+  
 
   .flavor p {
     color:#2D4149;
@@ -429,7 +450,7 @@ padding-left: 30px;
     margin: auto;
     text-align: center;
     padding-top: 70px;
-    
+    background-color: #fff;
   }
 
   .guide h1 {
